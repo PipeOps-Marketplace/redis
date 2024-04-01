@@ -18,6 +18,8 @@ ENV ALLOW_EMPTY_PASSWORD=${ALLOW_EMPTY_PASSWORD}
 # Copy the custom Redis configuration file into the image
 COPY redis.conf /usr/local/etc/redis/redis.conf
 
+ENV REDIS_OVERRIDES_FILE=/usr/local/etc/redis/redis.conf
+
 # Expose the default Redis port
 EXPOSE ${PORT}
 
