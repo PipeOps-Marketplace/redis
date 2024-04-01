@@ -23,3 +23,6 @@ COPY my.cnf /etc/mysql/conf.d/my.cnf
 # Update MySQL configuration to use the custom configuration file
 # Uncomment the line below if necessary, adjust the path as needed
 ENV MYSQL_CONF_FILE /etc/mysql/conf.d/my.cnf
+
+EXPOSE 3306
+
