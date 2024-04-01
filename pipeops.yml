@@ -29,3 +29,15 @@ Configuration:
     PORT:
       Description: ''
       Val: '$PORT'
+    REDIS_PASSWORD:
+      Description: 'Password for Redis'
+      Val: '${{secret(32)}}'
+    REDIS_MASTER_PASSWORD:
+      Description: 'Redis master node password'
+      Val: '${{secret(32)}}'
+    REDIS_ALLOW_REMOTE_CONNECTIONS:
+      Description: 'Allow remote connection to the service'
+      Val: '${{secret(32)}}'
+    ALLOW_EMPTY_PASSWORD:
+      Description: 'Allow password-less access'
+      Val: '${{secret(32)}}'
