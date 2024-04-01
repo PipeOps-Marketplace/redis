@@ -1,5 +1,5 @@
 # Use the Redis Alpine image as the base image
-FROM redis:6-alpine
+FROM bitnami/redis:6
 
 # Copy the custom Redis configuration file into the image
 COPY redis.conf /usr/local/etc/redis/redis.conf
