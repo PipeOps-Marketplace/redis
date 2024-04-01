@@ -1,12 +1,16 @@
-# Mysql on PipeOps
-This add-on deploys an instance of [Mysql](https://www.mysql.com/) on PipeOps.
+# MySQL on PipeOps
 
-[![Deploy on PipeOps](https://railway.app/button.svg)](https://railway.app/template/0ELOuE?referralCode=IQhE0B)
+Welcome to the MySQL addon for PipeOps, where you can effortlessly deploy a MySQL instance for your projects.
+
+[Deploy on PipeOps](https://railway.app/template/0ELOuE?referralCode=IQhE0B)
 
 ## Features
-- Mysql (one click deploy)
-- Public / Private Access
+- **MySQL Ready**: Deploy MySQL with just one click.
+- **Public or Private Access**: Customize your instance's access settings based on your project's needs.
 
-## Usage
-- Click the deploy to Railway button above!
-- Deploy, and check out your new database instance!
+## How to Use
+1. Simply click the "Deploy on PipeOps" button above.
+2. Follow the deployment process.
+3. Voila! Your MySQL instance is ready to use.
+
+Experience seamless database deployment with PipeOps and MySQL today!
