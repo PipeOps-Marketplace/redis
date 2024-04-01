@@ -2,7 +2,7 @@
 
 Welcome to the MySQL addon for PipeOps, where you can effortlessly deploy a MySQL instance for your projects.
 
-[Deploy on PipeOps](https://railway.app/template/0ELOuE?referralCode=IQhE0B)
+[![Deploy on PipeOps](https://railway.app/button.svg)](https://railway.app/template/0ELOuE?referralCode=IQhE0B)
 
 ## Features
 - **MySQL Ready**: Deploy MySQL with just one click.
