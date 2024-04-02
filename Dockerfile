@@ -1,5 +1,5 @@
 # Use the Redis Bitnami image as the base image
-FROM bitnami/redis:6
+FROM bitnami/redis:6.0
 
 # Set default values for environment variables using ARG
 ARG PORT=6379
