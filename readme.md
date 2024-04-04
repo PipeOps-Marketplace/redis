@@ -2,7 +2,7 @@
 
 Welcome to the Redis addon for PipeOps, where you can effortlessly deploy a Redis instance for your projects.
 
-[![Deploy on PipeOps](https://railway.app/button.svg)](https://railway.app/template/0ELOuE?referralCode=IQhE0B)
+[![Deploy on PipeOps](https://pub-a1fbf367a4cd458487cfa3f29154ac93.r2.dev/Default.png)](https://railway.app/template/0ELOuE?referralCode=IQhE0B)
 
 ## Features
 - **Redis Ready**: Deploy Redis with just one click.
