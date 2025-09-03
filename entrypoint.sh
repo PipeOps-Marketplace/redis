@@ -1,10 +1,12 @@
 #!/bin/bash
 
-PORT="${PORT:-6379}"
+# Export ARG variables as environment variables for runtime
+export PORT=${PORT:-6379}
+export REDIS_PASSWORD
+export REDIS_MASTER_PASSWORD
 
-# Perform the sed operations on the file in /tmp
-sed -i "s/__PORT__/$PORT/g" /tmp/redis.conf
-sed -i "s/__REQUIREPASS__/$REDIS_PASSWORD/g" /tmp/redis.conf
-sed -i "s/__PRIMARYAUTH__/$REDIS_MASTER_PASSWORD/g" /tmp/redis.conf
+# Use envsubst to replace variables from the template and save to a new file
+envsubst < /tmp/redis.conf.template > /tmp/redis.conf
 
+# Execute the main command
 exec "$@"
