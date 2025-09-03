@@ -5,6 +5,9 @@ COPY redis.conf /usr/local/etc/redis.conf
 COPY entrypoint.sh /usr/local/bin/
 RUN chmod +x /usr/local/bin/entrypoint.sh
 
+# Change ownership of the directory and its contents
+RUN chown -R redis:redis /usr/local/etc
+
 WORKDIR /usr/local/etc
 
 ARG PORT
