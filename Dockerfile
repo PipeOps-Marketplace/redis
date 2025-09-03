@@ -1,5 +1,8 @@
 FROM redis:7.2.5
 
+# Install gettext-base, which contains envsubst
+RUN apt-get update && apt-get install -y gettext-base
+
 # Change the working directory
 WORKDIR /tmp
 
